@@ -12,10 +12,11 @@ public class MahasiswaMain21 {
         mhs1.tampilkanInformasi();
 
         Mahasiswa21 mhs2 = new Mahasiswa21("Annisa Nabila", "21441720160", 3.25, "TI 2L");
-        mhs2.updateIpk(3.30);
+        mhs2.tampilkanInformasi();
+        mhs2.updateIpk(4.5);
         mhs2.tampilkanInformasi();
 
-        Mahasiswa21 mhs21 = new Mahasiswa21("Sofiah", "244107060065", 4.0, "SIB 1A");
+        Mahasiswa21 mhs21 = new Mahasiswa21("Sofiah", "244107060065", 4, "SIB 1A");
         mhs21.tampilkanInformasi();
     }
 }
