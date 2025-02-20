@@ -15,6 +15,6 @@ public class MataKuliahMain21 {
         MataKuliah21 matkul2 = new MataKuliah21("002", "BD", 3, 5);
         matkul2.tampilkanInformasi();
         matkul2.kurangiJam(6);
-        matkul1.tampilkanInformasi();
+        matkul2.tampilkanInformasi();
     }
 }
